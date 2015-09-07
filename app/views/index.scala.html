@@ -1,0 +1,7 @@
+@(users:  List[User])
+
+<ul>
+  @for(user <- users) {
+    <li>@user.name - @user.getAvailabilityInSecondsForToday</li>
+  }
+</ul>
