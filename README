@@ -1,4 +1,10 @@
 This is your new Play application
 =================================
 
-This file will be packaged with your application, when using `activator dist`.
+Create db in postgres, based on config from conf/application.conf
+
+In REST folder is located examples of Rest requests:
+ - to hipchat server, to get list of all users and specific one
+ - to curent app, to add new user
+you can use them in IDEA with Tools -> Test RESTfull web services, and import needed
+
